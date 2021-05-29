@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.github.github-brijframework</groupId>
-	<artifactId>github-brijframework-boot</artifactId>
-	<version>1.1</version>
+	<groupId>io.github.brijframework</groupId>
+	<artifactId>brijframework-boot</artifactId>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>${project.groupId}:${project.artifactId}</name>
-	<url>https://github.com/github-brijframework/github-brijframework-boot</url>
+	<url>https://github.com/brijframework/brijframework-boot</url>
 	<description>This is the boot library of brijframework</description>
 
 	<properties>
@@ -26,24 +26,24 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.github.github-brijframework</groupId>
-			<artifactId>github-brijframework-resources</artifactId>
-			<version>0.0.1</version>
+			<groupId>io.github.brijframework</groupId>
+			<artifactId>brijframework-resources</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 		<dependency>
-			<groupId>io.github.github-brijframework</groupId>
-			<artifactId>github-brijframework-asm</artifactId>
-			<version>0.0.1</version>
+			<groupId>io.github.brijframework</groupId>
+			<artifactId>brijframework-asm</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 		<dependency>
-			<groupId>io.github.github-brijframework</groupId>
-			<artifactId>github-brijframework-util</artifactId>
-			<version>0.0.1</version>
+			<groupId>io.github.brijframework</groupId>
+			<artifactId>brijframework-util</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 		<dependency>
-			<groupId>io.github.github-brijframework</groupId>
-			<artifactId>github-brijframework-support</artifactId>
-			<version>0.0.1</version>
+			<groupId>io.github.brijframework</groupId>
+			<artifactId>brijframework-support</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 	</dependencies>
 	
@@ -58,15 +58,15 @@
 		<developer>
 			<name>Ram Kishor</name>
 			<email>ramkishor0509@gmail.com</email>
-			<organization>com.github.github-brijframework</organization>
-			<organizationUrl>https://github.com/github-brijframework/github-brijframework-boot</organizationUrl>
+			<organization>com.github.brijframework</organization>
+			<organizationUrl>https://github.com/brijframework/brijframework-boot</organizationUrl>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/github-brijframework/github-brijframework-boot.git</connection>
-		<developerConnection>scm:git:ssh://github.com:github-brijframework/github-brijframework-boot.git</developerConnection>
-		<url>http://github.com/github-brijframework/github-brijframework-boot</url>
+		<connection>scm:git:git://github.com/brijframework/brijframework-boot.git</connection>
+		<developerConnection>scm:git:ssh://github.com:brijframework/brijframework-boot.git</developerConnection>
+		<url>http://github.com/brijframework/brijframework-boot</url>
 	</scm>
 
 	<profiles>
@@ -82,7 +82,7 @@
 	</profiles>
 
 	<build>
-		<finalName>github-brijframework-boot</finalName>
+		<finalName>brijframework-boot</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
